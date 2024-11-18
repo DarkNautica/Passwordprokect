@@ -1,1 +1,23 @@
-Read me
+# Password Strength Analyzer & Data Breach Checker
+
+This project evaluates the strength of a given password and checks whether it has been involved in any known data breaches using a custom API.
+
+## Features
+- Password strength analysis based on common security criteria.
+- Data breach checks via an API.
+
+## How to Use
+1. Clone this repository: `git clone https://github.com/your-username/password-checker.git`
+2. Install dependencies: `pip install requests`
+3. Run the script: `python password_checker.py`
+
+## API Details
+- Endpoint: `https://your-api.com/check-password`
+- Method: `POST`
+- Payload: `{ "password": "your-password" }`
+- Response:
+  ```json
+  {
+    "breached": true,
+    "count": 12345
+  }
