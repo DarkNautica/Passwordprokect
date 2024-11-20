@@ -1,4 +1,4 @@
-# Password Strength Analyzer & Data Breach Checker #
+# Password Strength Analyzer & Data Breach Checker
 
 This project evaluates the strength of a given password and checks whether it has been involved in any known data breaches using a custom API.
 
